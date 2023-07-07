@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <style>
-      header{
+      .header{
         background-color: aquamarine;
-      }
-      
-      span{
-        color:brown;
+        }
+
+        .headerIcon{
+          margin-right: 50px;
+        }
+
+      span {
+        color: brown;
       }
 
-      .nav{
+      .navLink a{
+        margin-right: 50px;
         text-decoration: none;
         text-transform: uppercase;
       }
 
-      .font{
+      .font {
         color: navy;
         font-size: xx-large;
       }
-      
+
+      .footerFont{
+        margin-right: 50px;
+        color: rgb(192, 81, 182);
+        font-size: xx-large;
+      }
     </style>
     <link
       rel="stylesheet"
@@ -30,30 +40,32 @@
     />
   </head>
   <body>
-    <header>
-      <i class="fa fa-user" aria-hidden="true"></i><span> Sanket Chaudhari</span> &nbsp;
-      &nbsp; &nbsp; &nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"></i><span> 9604 0976 79</span> &nbsp;
-      &nbsp; &nbsp; &nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"></i><span> csanket18@gmail.com</span>
-      &nbsp; &nbsp; &nbsp;
+    <header class="header">
+      <i  class="fa fa-user" aria-hidden="true"></i
+      ><span class="headerIcon"> Sanket Chaudhari</span>
+      <i  class="fa fa-phone-square" aria-hidden="true"></i
+      ><span class="headerIcon"> 9604 0976 79</span>
+      <i  class="fa fa-envelope" aria-hidden="true"></i
+      ><span class="headerIcon"> csanket18@gmail.com</span>
+
       <a href="resume sanket chaudhari.pdf"
         ><button>
-          <i class="fa fa-download" aria-hidden="true"></i><span> Download Resume</span>
+          <i class="fa fa-download" aria-hidden="true"></i
+          ><span> Download Resume</span>
         </button></a
       >
     </header>
     <br />
-    <nav >
-      <a class="nav" href="home.html" target="myFrame">Home</a>
-      &nbsp; &nbsp; &nbsp;
-      <a class="nav" href="techStack.html" target="myFrame">Tech Stack</a>
-      &nbsp;&nbsp; &nbsp;
-      <a class="nav" href="project.html" target="myFrame">Project</a>
-      &nbsp; &nbsp; &nbsp;
-      <a class="nav" href="education.html" target="myFrame">Education</a>
-      &nbsp; &nbsp; &nbsp;
-      <a class="nav" href="aboutMe.html" target="myFrame">About me</a>
+    <nav class="navLink">
+      <a  href="home.html" target="myFrame">Home</a>
+
+      <a  href="techStack.html" target="myFrame">Tech Stack</a>
+
+      <a  href="project.html" target="myFrame">Project</a>
+
+      <a  href="education.html" target="myFrame">Education</a>
+
+      <a  href="aboutMe.html" target="myFrame">About me</a>
     </nav>
     <br />
     <br />
@@ -67,22 +79,23 @@
     <br />
     <br />
     <footer>
-      <span>Follow me</span> &nbsp; &nbsp; &nbsp;
-      <a class="font" href="https://github.com/Sanketchaudhari1998/my-profile"
+      <span class="footerFont">Follow me</span>
+      <a class="footerFont" href="https://github.com/Sanketchaudhari1998/my-profile"
         ><i class="fa fa-github" aria-hidden="true"></i
       ></a>
-      &nbsp; &nbsp; &nbsp;
-      <a class="font" href="https://www.linkedin.com/in/sanket-chaudhari-2b386617a/"
-        ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
-      >&nbsp; &nbsp; &nbsp;
-      <a class="font" href="https://www.instagram.com/"
+
+      <a
+        class="footerFont"
+        href="https://www.linkedin.com/in/sanket-chaudhari-2b386617a/"
+        ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+      ></a>
+      <a class="footerFont" href="https://www.instagram.com/"
         ><i class="fa fa-instagram" aria-hidden="true"></i
       ></a>
-      &nbsp; &nbsp; &nbsp;
-      <a class="font" href="https://www.facebook.com/"
+
+      <a class="footerFont" href="https://www.facebook.com/"
         ><i class="fa fa-facebook-square" aria-hidden="true"></i
       ></a>
-      
     </footer>
   </body>
 </html>

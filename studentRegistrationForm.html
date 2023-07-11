@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      fieldset {
+        margin: 50px 950px 50px 50px;
+        border-radius: 10px;
+      }
+      h2 {
+        background-color: cadetblue;
+        color: bisque;
+      }
+
+      label {
+        color: brown;
+        font-family: "Poppins", sans-serif;
+      }
+
+      input[type="text"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="tel"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="email"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="password"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="date"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="week"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="time"] {
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+      }
+
+      input[type="file"] {
+        padding: 7px;
+        margin: 5px;
+        width: 200px;
+      }
+
+     textarea{
+        color: brown;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+     }
+
+     button{
+        color: brown;
+        background-color: antiquewhite;
+        padding: 7px;
+        margin: 5px;
+        border-radius: 10px;
+        width: 200px;
+     }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h2>Student Registration Form</h2></legend>
+
+      <table>
+        <tbody>
+          <form>
+            <tr>
+              <td><label>First Name</label></td>
+              <td><input type="text" placeholder="only first name" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Last Name</label></td>
+              <td><input type="text" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Mobile Number</label></td>
+              <td>
+                <input
+                  type="tel"
+                  placeholder="please enter with country code"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Email</label></td>
+              <td>
+                <input type="email" placeholder="Example: abc@gmail.com" />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Password</label></td>
+              <td><input type="password" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Country</label></td>
+              <td><input type="text" value="India" readonly /></td>
+            </tr>
+
+            <tr>
+              <td><label>Date Of Birth</label></td>
+              <td><input type="date" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Available in Week</label></td>
+              <td><input type="week" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Preffered Time</label></td>
+              <td><input type="time" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Select Profile Photo</label></td>
+              <td><input type="file" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Select Certificates</label></td>
+              <td><input type="file" /></td>
+            </tr>
+
+            <tr>
+              <td><label>Select Gender</label></td>
+              <td>
+                <input type="radio" name="gender" /> <label>Male</label>
+                <input type="radio" name="gender" /> <label>Female</label>
+                <input type="radio" name="gender" /> <label>Others</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Please Select Trainings</label></td>
+              <td>
+                <input type="checkbox" /> <label>Angular</label>
+                <input type="checkbox" /> <label>Java</label>
+                <input type="checkbox" /> <label>.Net</label>
+                <input type="checkbox" /> <label>DevOps</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Address</label></td>
+              <td><textarea></textarea></td>
+            </tr>
+
+            <tr>
+              <td><button>Submit</button></td>
+              <td><button>Reset</button></td>
+            </tr>
+          </form>
+        </tbody>
+      </table>
+    </fieldset>
+  </body>
+</html>

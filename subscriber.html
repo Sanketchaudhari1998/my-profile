@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <style>
+        .para{
+            border: solid  1px;
+            color: white;
+            background-color: cornflowerblue;
+            height: 200px;
+            width: 280px;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Signika Negative', sans-serif;
+            margin-left: 50px;
+        }
+
+        .heading{
+            font-family: 'Signika Negative', sans-serif;
+            margin-left: 50px;
+        }
+
+        .email{
+            font-family: 'Signika Negative', sans-serif;
+            margin-left: 50px;
+            padding-bottom: 30px;
+        }
+
+        .email label::after{
+            content: "*";
+            color: red;
+        }
+
+        .unsubscribe{
+            font-family: 'Signika Negative', sans-serif;
+            margin-left: 50px;
+            padding-bottom: 50px;
+        }
+
+        .button{
+            font-family: 'Signika Negative', sans-serif;
+            margin-left: 280px;
+            background-color: aliceblue;
+            border-radius: 5px;
+            border-style: none;
+            color: darkgrey;
+        }
+
+        input{
+            width: 310px;
+            height: 30px;
+            background-color: aliceblue;
+            border-radius: 5px;
+            border-style:none;
+        }
+
+        textarea{
+            background-color: aliceblue;
+            border-radius: 5px;
+            border-style:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2 class="heading">Subscriber</h2>
+    <p class="para">We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day. <br> 
+        Please feel in your email address in order to unsubscribe from the list. <br> 
+    You will receive an email to confirm your unsubscription, 
+    just to make sure this is not and accident or somebody else trie to unsuscribe you. </p>
+<div class="email">
+    <label>Email</label>  <br>
+    <input type="email">
+</div>
+<div class="unsubscribe">
+    <label>Unsubscribe reason</label> <br>
+    <textarea  cols="40" rows="3" placeholder="Unsubscribe reason"></textarea>
+</div>
+<button class="button">Unsubscribe</button>
+</div>
+</body>
+</html>

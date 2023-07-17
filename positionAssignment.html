@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+       .div1{
+        display: inline-block;
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        position: relative;
+        left: 50px;
+        top: 70px;
+        font-family: 'Poppins', sans-serif;
+       }
+
+       .div2{
+        display: inline-block;
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        position: relative;
+        left: 80px;
+        top: 30px;
+        font-family: 'Poppins', sans-serif;
+       }
+
+       .div3{
+        display: inline-block;
+        border: 2px solid gainsboro;
+        border-radius: 10px;
+        position: relative;
+        left: 110px;
+        top: 70px;
+        font-family: 'Poppins', sans-serif;
+       }
+
+       h2{
+        background-color:darkcyan;
+        color: aliceblue;
+        margin-top: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-align: center;
+        padding: 10px;
+       }
+
+      button{
+        width: 180px;
+        height: 30px;
+        background-color:darkcyan;
+        color: aliceblue;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        font-weight: bold;
+      }
+
+      p{
+        text-align: center;
+        font-weight:bolder;
+        font-size:x-large;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      .middle{
+        background-color: red;
+      }
+
+      ul li{
+        list-style-type: none;
+      }
+
+      .checkMark::before{
+        content: "✔️";
+      }
+
+      .cross::before{
+        content: "❌";
+      }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h2>Basic</h2>
+        <ul>
+            <li class="checkMark">Hosting</li>
+            <li class="cross">Domain</li>
+            <li class="checkMark">1 GB Space</li>
+            <li class="cross">Free SSL</li>
+            <li class="checkMark">1 Website Host</li>
+        </ul>
+        <p>&dollar;5</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="div2">
+        <h2 class="middle">Standard</h2>
+        <ul>
+            <li class="checkMark">Hosting</li>
+            <li class="checkMark">Domain</li>
+            <li class="checkMark">10 GB Space</li>
+            <li class="cross">Free SSL</li>
+            <li class="checkMark">4 Website Host</li>
+        </ul>
+        <p>&dollar;10</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="div3">
+        <h2>Standard</h2>
+        <ul>
+            <li class="checkMark">Hosting</li>
+            <li class="checkMark">Domain</li>
+            <li class="checkMark">10 GB Space</li>
+            <li class="checkMark">Free SSL</li>
+            <li class="checkMark">4 Website Host</li>
+        </ul>
+        <p>&dollar;20</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
